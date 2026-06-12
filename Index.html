@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ayush!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #d81b60;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #c2185b;
+        }
+        #message {
+            margin-top: 30px;
+            font-size: 24px;
+            color: #880e4f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy Birthday Ayush! 🎉🎂</h1>
+    <p>Click the button below to get your special birthday message.</p>
+    
+    <button onclick="showMessage()">Click Here for Treat!</button>
+
+    <div id="message"></div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML = "Bhai, party kab de rahe ho? Treat chahiye! 🍕🍔🎉";
+        }
+    </script>
+
+</body>
+</html>
